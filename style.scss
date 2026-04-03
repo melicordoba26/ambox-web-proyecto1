@@ -1,6 +1,12 @@
 $primary: darkblue;
 $shadow: grey;
 
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -8,8 +14,8 @@ header{
     color: white;
     justify-content: space-between;
     align-items: center;
+    
     padding: 20px;
-
     nav{
         ul{
             display: flex;
@@ -25,9 +31,22 @@ header{
     display: flex;
     flex-direction: row;
     gap: 30px;
+    
+    
     article{
         border: 1px solid $shadow;
         box-shadow: 5px 5px $shadow;
+        border-radius: 15px;
+        text-align: center;
+        padding: 10px;
 
     }
+}
+
+footer{
+    background-color: $primary;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
