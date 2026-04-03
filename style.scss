@@ -1,11 +1,33 @@
+$primary: darkblue;
+$shadow: grey;
+
 header{
     display: flex;
     flex-direction: row;
+    background-color: $primary;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
     nav{
         ul{
             display: flex;
             flex-direction: row;
+            list-style: none;
+            gap: 30px;
 
         }
+    }
+}
+
+#proyectos{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    article{
+        border: 1px solid $shadow;
+        box-shadow: 5px 5px $shadow;
+
     }
 }

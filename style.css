@@ -1,10 +1,27 @@
 header {
   display: flex;
   flex-direction: row;
+  background-color: darkblue;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 header nav ul {
   display: flex;
   flex-direction: row;
+  list-style: none;
+  gap: 30px;
+}
+
+#proyectos {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+#proyectos article {
+  border: 1px solid grey;
+  box-shadow: 5px 5px grey;
 }
 
 /*# sourceMappingURL=style.css.map */
