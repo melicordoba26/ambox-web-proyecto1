@@ -18,12 +18,20 @@ header nav ul {
   flex-direction: row;
   list-style: none;
   gap: 30px;
+  cursor: pointer;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
 }
 
 #proyectos {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 #proyectos article {
   border: 1px solid grey;
@@ -39,6 +47,8 @@ footer {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
+  margin-bottom: 0px;
+  margin-top: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
